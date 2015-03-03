@@ -23,15 +23,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x6050
 #define DEVICE_VER      0x0104
 #define MANUFACTURER    Duck
-#define PRODUCT         Octagon
+#define PRODUCT         Viper
 
 /* message strings */
-#define DESCRIPTION     t.m.k. keyboard firmware for Octagon
+#define DESCRIPTION     t.m.k. keyboard firmware for Viper
 
 /* matrix size */
-#define MATRIX_ROWS 6
+#define MATRIX_ROWS 5
 /* 0..15 */
-#define MATRIX_COLS 16
+#define MATRIX_COLS 15
 
 /* number of backlight levels */
 #define BACKLIGHT_LEVELS 1
