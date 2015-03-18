@@ -36,6 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* number of backlight levels */
 #define BACKLIGHT_LEVELS 1
 
+/* Boot Magic salt key: Space */
+#define BOOTMAGIC_KEY_SALT      KC_SPACE
+
 /* Set 0 if need no debouncing */
 #define DEBOUNCE 5
 
