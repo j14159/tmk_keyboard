@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "debug.h"
 #include "util.h"
 #include "matrix.h"
-#include "backlight.h"
+//#include "backlight.h"
 
 
 #ifndef DEBOUNCE
@@ -54,6 +54,8 @@ uint8_t matrix_cols(void)
 
 void matrix_init(void)
 {
+  debug_enable = true;
+  print("what the\n");
     backlight_init_ports();
     unselect_cols();
     init_rows();

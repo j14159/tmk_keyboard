@@ -20,8 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6050
-#define DEVICE_VER      0x0104
+#define PRODUCT_ID      0x6051
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    Duck
 #define PRODUCT         Viper
 
@@ -34,10 +34,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 15
 
 /* number of backlight levels */
-#define BACKLIGHT_LEVELS 1
+#define BACKLIGHT_LEVELS 0
 
 /* Boot Magic salt key: Space */
-#define BOOTMAGIC_KEY_SALT      KC_SPACE
+#define BOOTMAGIC_KEY_SALT      KC_ESC
 
 /* Set 0 if need no debouncing */
 #define DEBOUNCE 5
