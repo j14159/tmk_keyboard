@@ -44,7 +44,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * `-----------------------------------------------------------' `-----------' `---------------'
      */
     KEYMAP_EXT_ANSI(
-    GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12,           PSCR,SLCK,BRK,                    NO, 
+    GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12,           PSCR,SLCK,BRK,                    NO,
     ESC, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,      INS, HOME,PGUP,    NLCK,BTN1,BTN2,BTN3,
     TAB, Q,   W,   E,   R,   T,   Y,   U,   PSCR,SLCK,PAUS,UP,  INS, FN0,      DEL, END, PGDN,    WH_D,MS_U,WH_U,WH_D,
     LCAP,VOLD,VOLU,MUTE,F,   G,   H,   J,   HOME,PGUP,LEFT,RGHT,     ENT,                         MS_L,MS_D,MS_R,WH_U,
@@ -54,5 +54,5 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const uint16_t PROGMEM fn_actions[] = {
-    [0] = ACTION_LAYER_TAP_KEY(1, KC_BSLS),
+  [0] = ACTION_LAYER_TAP_KEY(1, KC_BSLS),
 };

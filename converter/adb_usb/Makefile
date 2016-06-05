@@ -27,7 +27,7 @@
 # make flip-ee = Download the eeprom file to the device, using Atmel FLIP
 #                (must have Atmel FLIP installed).
 #
-# make debug = Start either simulavr or avarice as specified for debugging, 
+# make debug = Start either simulavr or avarice as specified for debugging,
 #              with avr-gdb or avr-insight as the front end for debugging.
 #
 # make filename.s = Just compile filename.c into the assembler code only.
@@ -66,7 +66,7 @@ CONFIG_H = config.h
 # atmega32u4 	Teensy2.0
 # atemga32u4	TMK Converter rev.1
 # atemga32u2	TMK Converter rev.2
-MCU = atmega32u2
+MCU = atmega32u4
 
 # Processor frequency.
 #     This will define a symbol, F_CPU, in all source code files equal to the
@@ -126,7 +126,7 @@ COMMAND_ENABLE = yes    # Commands for debug and configuration
 #NKRO_ENABLE = yes	# USB Nkey Rollover
 ADB_MOUSE_ENABLE = yes
 
-# ADB Mice need acceleration for todays much bigger screens. 
+# ADB Mice need acceleration for todays much bigger screens.
 OPT_DEFS += -DADB_MOUSE_MAXACC=8
 
 
